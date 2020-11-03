@@ -1,4 +1,5 @@
 // This is my solution to the coding problem from edabit.com. The goal is to find any prime number in range
+
 function primeInRange(n1, n2) {
     let deduct = n2 - n1;
     let range = [n1];
@@ -18,7 +19,6 @@ function primeInRange(n1, n2) {
             } 
         }
     }
-
 
     const result = range.every(i => bool.includes(i));
 
